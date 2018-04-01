@@ -9,3 +9,34 @@ div{
     margin-left:auto;
     margin-right:auto;
 }
+.header{
+    width:920px;
+    background-color:blue;
+    height:200px;
+}
+.content1{
+    background-color:green
+    height:200px;
+    width:920px;
+}
+.content2{
+    background-color:red;
+    height:500px;
+    width:920px;
+}
+.yellowbox1{
+    background-color:yellow;
+    height:160px;
+    width:430px;
+    float:left;
+    margin-top:20px;
+    margin-left:20px;
+}
+.yellowbox2{
+    background-color:yellow;
+    height:460px;
+    width:430px;
+    float:left;
+    margin-top:20px;
+    margin-left:20px;
+}
