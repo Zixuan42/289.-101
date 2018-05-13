@@ -1,19 +1,76 @@
-body{
-/*   background-color:red;*/
+@charset "utf-8";
+/* CSS Document */
+
+div{
+    outline: #FFFFFF solid 1px;
 }
 .blue{
-    background-color: cornflowerblue;
-    height: 40px;
+    background-color: #71b3fd;
+    height: 80px;
 }
 .green{
-    background-color: chartreuse;
-    height: 150px;
+    background-color: #b5d732;
 }
 .orange{
-    background-color: darkorange;
-    height: 150px;
+    background-color: #ebad3d;
 }
 .grey{
-    background-color: darkgrey;
-    height: 80px;
+    background-color: #c2c2c2;
+}
+.pink{
+    background-color: #fe8bff;
+}
+/* sm devices */
+@media (min-width: 576px) {
+body { background-color: orange }
+    .green{
+        height: 50px;
+    }
+    .orange{
+        height: 450px;
+    }
+    .red{
+        height: 120px;
+    }
+    .grey{
+        height: 150px;
+    }
+}
+/* md devices */
+@media(min-width: 768px) {
+body {background-color: yellow}
+    .green{
+        height: 150px;
+    }
+    .orange{
+        height: 360px;
+    }
+    .red{
+        height: 360px;
+    }
+    .grey{
+        height: 120px;
+    }
+}
+/* lg devices */
+@media (min-width: 992px) {
+body{background-color: green}
+    .blue{
+        height: 50px;
+    }
+    .green{
+        height: 510px;
+    }
+    .orange{
+        height: 510px;
+    }
+    .red{
+        height: 510px;
+    }
+    .grey{
+        height: 85px;
+    }
+    ,pink{
+        height: 85px;
+    }
 }
