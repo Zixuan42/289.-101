@@ -21,9 +21,20 @@
         </div>
         
         <script>
+            var x = 10;
+            
             document.getElementById("hello_btn").addEventListener('click'; function(){
-                alert('hello');
+//                alert('hello');
+                document.getElementById('hello_btn').style.color = "yellow";
+                document.getElementById('hello_btn').style.backgroundColor = "orange";
+                
+                console.log('color changes are applied');
+                
+                console.log(x);
+                x ++;
+                
             })
         </script>
+        
     </body>
 </html>
